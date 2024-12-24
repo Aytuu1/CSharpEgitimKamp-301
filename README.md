@@ -123,8 +123,6 @@ Bu repo, **Murat Yücedağ**'ın eğitmenliğinde gerçekleştirilen **C# Eğiti
 - `Add()`, `Update()`, `Remove()` gibi metotların kullanımı.  
 - Veritabanı işlemlerini kolaylaştırma.  
 
-📷 **Resim**:  
-![Proje 15 Resmi](images/proje15_resim.png)  
 
 ---
 
