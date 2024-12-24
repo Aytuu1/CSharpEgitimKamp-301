@@ -84,11 +84,15 @@ namespace CSharpEgitimKampı301.EFProject
 
       #endregion
 
-      var guideIdByNameAysegulCınar = db.TblGuide.Where(x => x.GuideName == "Ayşegül" & x.GuideSurname== "Çınar").Select(y=>y.GuideID).FirstOrDefault();
+      #region Ayşegül Çınar Tur Sayısı
+      var guideIdByNameAysegulCınar = db.TblGuide.Where(x => x.GuideName == "Ayşegül" & x.GuideSurname == "Çınar").Select(y => y.GuideID).FirstOrDefault();
 
 
 
-      lblAysegulCinarLocationCount.Text=db.TblLocation.Where(x=>x.GuideID==guideIdByNameAysegulCınar).Count().ToString();
+      lblAysegulCinarLocationCount.Text = db.TblLocation.Where(x => x.GuideID == guideIdByNameAysegulCınar).Count().ToString();
+      #endregion
+
+
 
 
 
