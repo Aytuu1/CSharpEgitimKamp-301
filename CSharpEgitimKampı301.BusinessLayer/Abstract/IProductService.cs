@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpEgitimKampı301.DataAccessLayer.Abstract
+namespace CSharpEgitimKampı301.BusinessLayer.Abstract
 {
-  public interface IProductDal:IGenericDal<Product>
+  public interface IProductService:IGenericService<Product>
   {
-    List<Object> getProductWithCategory();
+     List<Object> TgetProductWithCategory();
 
   }
 }
